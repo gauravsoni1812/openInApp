@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ /* Navbar.css */
+
+.menu-open {
+  transform: translateX(0);
+}
+
+.menu-closed {
+  transform: translateX(100%);
+}
+
+.menu-overlay {
+  transform: translateX(0);
+}
+
+.menu-overlay-hidden {
+  transform: translateX(100%);
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: separate;
+  border-spacing: 0 20px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+td,
+th {
+  /* border: 1px solid #dddddd; */
+  margin: 10px;
+  text-align: left;
+  padding: 15px;
+}
+
+
+.hidden-text {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.visible-text {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
