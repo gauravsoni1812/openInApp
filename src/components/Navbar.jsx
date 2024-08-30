@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
-import img1 from "../assets/logo_and_company.svg";
+import img1 from "../assets/Logo_and_company.svg";
 import img2 from "../assets/burger-regular.png";
 import img3 from "../assets/mobile_n.png";
 import img4 from "../assets/img12.png";
