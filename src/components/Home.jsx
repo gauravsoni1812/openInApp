@@ -21,12 +21,12 @@ const Home = () => {
           <h1 className="font-[600]  text-[30px] md:text-[36px]">Sign In</h1>
           <p className="font-[600]">Sign in to your account</p>
           <div className="flex justify-between font-[600] md:text-sm my-5 text-[#858585] text-[12px] md:text-[14px]">
-            <Link to={"/upload"} >
+            <a href={"/upload"} >
               <div className="bg-black flex justify-center items-center  gap-3 p-2 md:px-6 md:py-1.5 rounded-lg cursor-pointer">
                 <img src={google_icon} alt="google icon" className="" />
                 <p>Sign in with google</p>
               </div>
-            </Link>
+            </a>
 
             <div className="bg-black flex justify-center items-center gap-3 p-2 md:px-6 md:py-1.5 rounded-lg cursor-pointer">
               <img src={apple_icon} alt="google icon" className="" />
