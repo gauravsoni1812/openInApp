@@ -53,7 +53,7 @@ const Upload = () => {
         { title: "upload", src: "Ticket" },
         { title: "Invoice", src: "Ticket" },
         { title: "Schedule", src: "lole" },
-        { title: "Calendar", src: "Search" },
+        { title: "Calendar", src: "Document" },
         { title: "Notifications", src: "Notification" },
         { title: "Setting", src: "Setting" },
     ];
