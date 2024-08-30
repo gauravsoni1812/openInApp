@@ -5,7 +5,7 @@ import img2 from "../assets/burger-regular.png";
 import img3 from "../assets/mobile_n.png";
 import img4 from "../assets/img12.png";
 import img5 from "../assets/plus.svg";
-import img6 from "../assets/category.svg";
+import img6 from "../assets/Category.svg";
 import img7 from "../assets/Chart_fill.png";
 import img8 from "../assets/Ticket.svg";
 import img9 from "../assets/Document.svg";
